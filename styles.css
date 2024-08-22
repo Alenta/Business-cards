@@ -1,13 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 #card {
   background-color: rgb(10, 10, 46);
   width: 400px;
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 6px solid rgb(56, 17, 48);
+  margin: 20px auto;
+  border-radius: 20px;
 }
 #image {
   width: 100px;
   height: 100px;
+  margin-right: 10px;
 }
 
+#textLines {
+  display: inline;
+}
 p {
   color: white;
+  display: inline;
 }
