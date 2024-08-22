@@ -1,0 +1,13 @@
+#card {
+  background-color: rgb(10, 10, 46);
+  width: 400px;
+  height: 200px;
+}
+#image {
+  width: 100px;
+  height: 100px;
+}
+
+p {
+  color: white;
+}
